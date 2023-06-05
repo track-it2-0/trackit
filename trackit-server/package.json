@@ -1,0 +1,11 @@
+{
+  "name": "trackit-server",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A Bus Tracking System",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  }
+}

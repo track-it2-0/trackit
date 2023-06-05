@@ -1,0 +1,17 @@
+{
+  "name": "trackit",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev:client": "cd trackit-client && npm run dev",
+    "dev:server": "cd trackit-server && npm run dev",
+    "dev:all": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "install:client": "cd trackit-client && npm install",
+    "install:server": "cd trackit-server && npm install",
+    "on:client": "cd trackit-client &&",
+    "on:server": "cd trackit-server &&",
+    "build:client": "cd trackit-client && npm run build",
+    "start:server": "cd trackit-server && npm start"
+  }
+}
