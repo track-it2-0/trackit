@@ -12,6 +12,10 @@
     "on:client": "cd trackit-client &&",
     "on:server": "cd trackit-server &&",
     "build:client": "cd trackit-client && npm run build",
-    "start:server": "cd trackit-server && npm start"
+    "start:server": "cd trackit-server && npm start",
+    "install:all": "concurrently \"npm install\" \"npm run install:client\" \"npm run install:server\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.1.0"
   }
 }
